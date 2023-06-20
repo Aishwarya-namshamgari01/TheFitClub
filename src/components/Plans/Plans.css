@@ -1,0 +1,75 @@
+.Plans {
+    margin-top: -4rem;
+    padding: 0 2rem;
+}
+.blur_plans_1 {
+    width: 32rem;
+    height: 23rem;
+    top: 6rem;
+    left: 0;
+}
+.blur_plans_2 {
+    width: 32rem;
+    height: 23rem;
+    top: 10rem;
+    right: 0;
+}
+.plans_cards{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem;
+    align-items: center;
+}
+.plans_card{
+    background-color: var(--caloryCard);
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    padding: 2rem;
+    color: white;
+    width: 15rem;
+
+}
+.plans_card:nth-child(2) {
+    background: var(--planCard);
+    transform: scale(1.1);
+}
+.plans_card>:nth-child(1) {
+    width: 2rem;
+    height: 2rem;
+    fill: var(--orange);
+}
+.plans_card>:nth-child(2) {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.plans_card>:nth-child(3) {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.plans_card>:nth-child(5) {
+    font-size: 0.8rem;
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.feature{
+    display: flex;
+    gap: 1rem;
+}
+.feature > img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.plans_card:nth-child(2)> svg {
+    fill: white
+}
+.plans_card:nth-child(2)>button {
+    color: orange;
+}
+
+
+

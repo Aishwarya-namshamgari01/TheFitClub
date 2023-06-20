@@ -1,0 +1,22 @@
+.footer_container {
+    gap: 5rem;
+}
+.footer{
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    height: 20rem;
+}
+.social_links {
+    display: flex;
+    gap: 5rem;
+
+}
+.social_links> img {
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
