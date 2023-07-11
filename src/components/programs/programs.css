@@ -57,3 +57,17 @@
     background: var(--planCard);
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .programs_header{
+        flex-direction: column;
+        font-size: x-large;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .program_categories {
+        flex-direction: column;
+    }
+}

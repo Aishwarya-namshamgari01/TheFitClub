@@ -5,11 +5,12 @@ import hero_image from '../assets/hero_image.png';
 import hero_image_back from '../assets/hero_image_back.png';
 import Heart from '../assets/heart.png';
 import Calories from '../assets/calories.png';
+import NumberCounter from 'number-counter'
 
 
 const Hero = () => {
     return (
-        <div className='hero'>
+        <div className='hero' id='home'>
             <div className='blur hero_blur'></div>
             <div className='left_h'>
                 <Header />
@@ -39,15 +40,17 @@ const Hero = () => {
                 {/* Figures */}
                 <div className='figures'>
                     <div>
-                        <span>+140</span>
+                        <span>
+                            <NumberCounter end={140} start={100} delay='4' preFix='+' />
+                        </span>
                         <span>expert coaches</span>
                     </div>
                     <div>
-                        <span>+978</span>
+                        <span><NumberCounter end={978} start={800} delay='4' preFix='+' /></span>
                         <span>members joined</span>
                     </div>
                     <div>
-                        <span>+50</span>
+                        <span><NumberCounter end={50} start={10} delay='4' preFix='+' /></span>
                         <span>fitness programs</span>
                     </div>
                 </div>

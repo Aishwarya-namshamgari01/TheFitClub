@@ -71,5 +71,14 @@
     color: orange;
 }
 
+@media screen and (max-width: 768px) {
+   .plans_cards{
+    flex-direction: column;
+   }
+   .plans_cards>:nth-child(2){
+    transform: none;
+   }
+}
+
 
 
